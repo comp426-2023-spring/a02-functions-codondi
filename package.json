@@ -21,6 +21,8 @@
   },
   "homepage": "https://github.com/comp426-2023-spring/a02-functions-codondi#readme",
   "dependencies": {
-    "minimist": "^1.2.8"
+    "fetch": "^1.1.0",
+    "minimist": "^1.2.8",
+    "moment-timezone": "^0.5.43"
   }
 }
