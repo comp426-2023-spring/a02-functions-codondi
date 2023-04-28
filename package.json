@@ -1,0 +1,26 @@
+{
+  "name": "weather-data-ingest",
+  "version": "1.0.0",
+  "description": "Comman line node.js package that ingests API data from Open Meteo",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "galosh.js": "./cli.js"
+  },
+  "scripts": {
+    "test": "node cli.js -n 35.92 -w 79.05 -z America/New_York"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/comp426-2023-spring/a02-functions-codondi.git"
+  },
+  "author": "Chris Odondi",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/comp426-2023-spring/a02-functions-codondi/issues"
+  },
+  "homepage": "https://github.com/comp426-2023-spring/a02-functions-codondi#readme",
+  "dependencies": {
+    "minimist": "^1.2.8"
+  }
+}
